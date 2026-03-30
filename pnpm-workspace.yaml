@@ -8,6 +8,7 @@ onlyBuiltDependencies:
   - "@lydell/node-pty"
   - "@matrix-org/matrix-sdk-crypto-nodejs"
   - "@napi-rs/canvas"
+  - "@tloncorp/api"
   - "@whiskeysockets/baileys"
   - "@tloncorp/api"
   - authenticate-pam
@@ -15,3 +16,7 @@ onlyBuiltDependencies:
   - node-llama-cpp
   - protobufjs
   - sharp
+
+ignoredBuiltDependencies:
+  - "@discordjs/opus"
+  - koffi
